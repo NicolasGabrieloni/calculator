@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body {
+    background-color: hsl(222, 26%, 31%);
+    border: none;
+}
+
+.attribution {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.bloquePadre {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 440px;
+    margin: 200px auto 10px auto;
+
+}
+
+
+/* BLOQUE 1 */
+.one {
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    margin-left: 285px;
+    cursor: pointer;
+}
+
+.two {
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    margin-left: 306px;
+    cursor: pointer;
+}
+
+.three {
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    margin-left: 328px;
+    cursor: pointer;
+}
+
+.bloque1 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.part1 {
+    display: flex;
+    font-size: 12px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.part1 h4 {
+    font-size: 20px;
+    color: white;
+}
+
+.part1 p {
+    margin-left: 200px;
+    color: white;
+}
+
+.box {
+    width: 60px;
+    height: 15px;
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 30px;
+    margin-left: 4px;
+    position: relative;
+}
+
+.circle {
+    width: 18px;
+    height: 15px;
+    background-color: hsl(6, 63%, 50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border-radius: 30px;
+}
+
+.part1 input {
+    width: 50px;
+    color: white;
+    appearance: none;
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 15px;
+}
+
+
+.part2 {
+    height: 60px;
+    width: 360px;
+    margin-left: -10px;
+    background-color: hsl(224, 36%, 15%);
+    color: white;
+    border-radius: 5px;
+}
+
+.resultado {
+    outline: none;
+    border: none;
+    font-size: 30px;
+    margin-top: 14px;
+    margin-left: 5px;
+    color: white;
+    text-align: center;
+    background-color: hsl(224, 36%, 15%);
+}
+
+
+/* BLOQUE 2 */
+
+.bloque2 {
+    height: 240px;
+    margin: 10px;
+}
+
+.btn {
+    font-size: 20px;
+    width: 70px;
+    height: 40px;
+    margin: 10px auto 10px 10px;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 2px 1px hsl(28, 16%, 65%);
+    background-color: hsl(30, 25%, 89%);
+}
+.btn:hover {
+    background-color: white;
+}
+
+.del {
+    background-color: hsl(225, 21%, 49%);
+    color: white;
+    border: none;
+    box-shadow: 0px 2px 1px hsl(224, 28%, 35%);
+}
+.del:hover {
+    background-color: hsl(225, 39%, 66%);
+}
+
+
+/* BLOQUE 3 */
+
+.bloque3 {
+    margin: 10px;
+    height: 50px;
+}
+
+.bloque3 button {
+    width: 160px;
+    height: 40px;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.rst {
+    background-color: hsl(225, 21%, 49%);
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 2px 1px hsl(224, 28%, 35%);
+}
+.rst:hover {
+    background-color: hsl(225, 39%, 66%);
+}
+
+.igual {
+    background-color: hsl(6, 63%, 50%);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 2px 1px hsl(6, 70%, 34%);
+}
+
+.bloqBig {
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 5px;
+}
+
+
+
+/* THEME 1 */
+
+body.active1 {
+    background-color: hsl(0, 0%, 90%);
+}
+
+.active1 .one {
+    color: black;
+}
+
+.active1 .two {
+    color: black;
+}
+
+.active1 .three {
+    color: black;
+}
+
+.active1 h4 {
+    color: black;
+}
+
+.active1 p {
+    color: black;
+}
+
+
+.active1 .box {
+    background-color: hsl(0, 5%, 81%);
+}
+
+.active1 .bloqBig {
+    background-color: hsl(0, 5%, 81%);
+}
+
+.active1 .circle {
+    background-color: hsl(25, 98%, 40%);
+}
+
+.active1 .btn {
+    background-color: hsl(45, 7%, 89%);
+    box-shadow: 0px 3px 1px hsl(35, 11%, 61%);
+    border: 0px;
+}
+
+.active1 .btn:hover {
+    background-color: hsl(60, 7%, 97%);
+}
+
+.active1 .igual {
+    background-color: hsl(25, 98%, 40%);
+    box-shadow: 0px 3px 1px hsl(25, 99%, 27%);
+    border: 0px;
+}
+
+.active1 .igual:hover {
+    background-color: hsl(25, 95%, 63%);
+    ;
+}
+
+.active1 .del {
+    background-color: hsl(185, 42%, 37%);
+    box-shadow: 0px 3px 1px hsl(185, 58%, 25%);
+    border: 0px;
+}
+
+.active1 .del:hover {
+    background-color: hsl(185, 55%, 51%);
+}
+
+.active1 .rst {
+    background-color: hsl(185, 42%, 37%);
+    box-shadow: 0px 3px 1px hsl(185, 58%, 25%);
+    border: 0px;
+}
+
+.active1 .rst:hover {
+    background-color: hsl(185, 55%, 51%);
+}
+
+.active1 .part2 {
+    background-color: hsl(0, 0%, 93%);
+}
+
+.active1 .resultado {
+    background-color: hsl(0, 0%, 93%);
+    color: black;
+}
+
+
+
+
+/* THEME 2 */
+
+body.active2 {
+    background-color: hsl(268, 75%, 9%);
+}
+.active2 .one {
+    color: hsl(52, 100%, 62%);
+}
+
+.active2 .two {
+    color: hsl(52, 100%, 62%);
+}
+
+.active2 .three {
+    color: hsl(52, 100%, 62%);
+}
+
+.active2 h4 {
+    color: hsl(52, 100%, 62%);
+}
+
+.active2 p {
+    color: hsl(52, 100%, 62%);
+}
+
+
+.active2 .box {
+    background-color: hsl(268, 71%, 12%);
+}
+
+.active2 .bloqBig {
+    background-color: hsl(268, 71%, 12%);
+}
+
+.active2 .circle {
+    background-color: hsl(176, 100%, 44%);
+}
+
+.active2 .btn {
+    background-color: hsl(268, 47%, 21%);
+    box-shadow: 0px 3px 1px hsl(290, 70%, 36%);
+    border: 0px;
+    color: hsl(52, 100%, 62%);
+}
+
+.active2 .btn:hover {
+    background-color: hsl(268, 48%, 45%);
+}
+
+.active2 .igual {
+    background-color: hsl(176, 100%, 44%);
+    box-shadow: 0px 3px 1px hsl(177, 92%, 70%);
+    border: 0px;
+    color: hsl(198, 20%, 13%);
+}
+
+.active2 .igual:hover {
+    background-color: hsl(176, 100%, 84%);
+    ;
+}
+
+.active2 .del {
+    background-color: hsl(281, 89%, 26%);
+    box-shadow: 0px 3px 1px hsl(285, 91%, 52%);
+    border: 0px;
+    color: hsl(0, 0%, 100%);
+}
+
+.active2 .del:hover {
+    background-color: hsl(290, 70%, 36%);
+}
+
+.active2 .rst {
+    background-color: hsl(281, 89%, 26%);
+    box-shadow: 0px 3px 1px hsl(285, 91%, 52%);
+    border: 0px;
+    color: hsl(0, 0%, 100%);
+}
+
+.active2 .rst:hover {
+    background-color: hsl(290, 70%, 36%);
+}
+
+.active2 .part2 {
+    background-color: hsl(268, 71%, 12%);
+}
+
+.active2 .resultado {
+    background-color: hsl(268, 71%, 12%);
+    color: hsl(52, 100%, 62%);
+}
